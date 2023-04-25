@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayaland Online Shop</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Jost:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <p href="#" class="logo">Ayaland</p>
+      <ul class="navmenu">
+        <li class="navmenu_li"><a href="index.html#mainpage">Главная</a></li>
+        <li class="navmenu_li"><a href="index.html#trending">Магазин</a></li>
+        <li class="navmenu_li"><a href="index.html#review">Отзывы</a></li>
+        <li class="navmenu_li"><a href="index.html#news">Важное</a></li>
+        <li class="navmenu_li"><a href="index.html#contacts">Контакты</a></li>
+      </ul>
+
+      <ul class="navicon">
+        <!-- <a href="#"><i class="bx bx-search"></i></a>
+        <a href="#"><i class="bx bx-user"></i></a> -->
+         <a href="basket.html"><i class="bx bx-cart"></i></a>
+      </ul>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="main-homeb" id="mainpage">
+      <div class="basket" id="basket">
+        <h2>Корзина</h2>
+        <div class="basket-items"></div>
+        <div class="total-price"></div>
+      </div>
+    </section>
+    <section>
+      <form id="my-form" name="online-shoping" accept-charset="utf-8" action="https://formspree.io/f/mayzaaew" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Имя*</label>
+    <input type="text" name="name" id="full-name" placeholder="Ваше имя" required="">
+    <label for="telephone">Телефон*</label>
+    <input type="telephone" name="telephone" id="telephone" placeholder="8(702)000-00-00" required="">
+    <label for="street-address">Адрес</label>
+    <input type="text" name="street" id="street-address" placeholder="Улица/дом/подьезд/кв">
+    <fieldset class="locale">
+      <legend>Город</legend>
+      <input type="text" name="city" placeholder="Город">
+      <select name="state">
+        <option value="" selected="" disabled="">Область</option>
+      	lahoma</option>
+      	<option value="AST">г. Астана</option>
+      	<option value="ALMT">г. Алмата</option>
+      	<option value="SHY">г. Шымкент</option>
+        <option value="ABA">Абайская</option>
+         <option value="AKM">Акмолинская</option>
+        <option value="AKT">Актюбинская</option>
+        <option value="ALA">Алматинская</option>
+        <option value="ATY">Атырауская</option>
+        <option value="ZHA">Жамбылская</option>
+        <option value="ZHA">Жетысуская</option>
+        <option value="VOS">ВКО</option>
+        <option value="ZAP">ЗКО</option>
+         <option value="KAR">Карагандинская</option>
+         <option value="KUS">Костанайская</option>
+        <option value="KZY">Кызылординская</option>
+       <option value="MAN">Мангистауская</option>
+       <option value="PAV">Павлодарская</option>
+       <option value="SEV">СКО</option>
+      </select>
+      <input type="text" name="postal-code" placeholder="010000" >
+    </fieldset>
+    <input type="hidden" name="cart" id="cart" value="">
+    <input type="hidden" name="_subject" id="email-subject">
+  </fieldset>
+  <input type="submit" value="Оформить заявку">
+</form>
+</section>
+    <section class="contact" id="contacts">
+      <div class="contact-info">
+        <div class="first-info">
+          <p href="#" id="logo2">Ayaland</p>
+          <p>
+            010000 <br />
+            Астана Улы Дала 86
+          </p>
+          <p>87020002593</p>
+          <p>muslimkhan.salta@gmail.com</p>
+
+          <div class="social-icon">
+            <a href="https://www.instagram.com/ayaland.store/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://wa.me/87020002593" target="_blank"
+              ><i class="bx bxl-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+        <div class="second-info">
+          <h4>Поддержка</h4>
+          <p>Контакты</p>
+          <p>О нас</p>
+          <p>Гид по размерам</p>
+          <p>Покупки и Возврат</p>
+          <p>Политика Конфедициальности</p>
+        </div>
+
+        <div class="third-info">
+          <h4>Магазин</h4>
+          <p>Первая Коллекция</p>
+          <p>Вторая Коллекция</p>
+          <p>Сезонные скидки</p>
+          <p>Коллекция</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="end-text">
+      <p>Copyright &copy 2023. All Rights Reserved. Designed by Saltanet.</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

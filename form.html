@@ -1,0 +1,41 @@
+ <form id="my-form" name="online-shoping" accept-charset="utf-8" action="https://formspree.io/f/xzbqkwqd" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Имя</label>
+    <input type="text" name="name" id="full-name" placeholder="Ваше имя" required="">
+    <label for="telephone">Телефон</label>
+    <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555" required="">
+    <label for="street-address">Адрес</label>
+    <input type="text" name="street" id="street-address" placeholder="Улица" required="">
+    <fieldset class="locale">
+      <legend>Город</legend>
+      <input type="text" name="city" placeholder="Город" required="">
+      <select name="state" required="">
+        <option value="" selected="" disabled="">Область</option>
+      	lahoma</option>
+      	<option value="AST">г. Астана</option>
+      	<option value="ALMT">г. Алмата</option>
+      	<option value="SHY">г. Шымкент</option>
+        <option value="ABA">Абайская</option>
+         <option value="AKM">Акмолинская</option>
+        <option value="AKT">Актюбинская</option>
+        <option value="ALA">Алматинская</option>
+        <option value="ATY">Атырауская</option>
+        <option value="ZHA">Жамбылская</option>
+        <option value="ZHA">Жетысуская</option>
+        <option value="VOS">ВКО</option>
+        <option value="ZAP">ЗКО</option>
+         <option value="KAR">Карагандинская</option>
+         <option value="KUS">Костанайская</option>
+        <option value="KZY">Кызылординская</option>
+       <option value="MAN">Мангистауская</option>
+       <option value="PAV">Павлодарская</option>
+       <option value="SEV">СКО</option>
+      </select>
+      <input type="text" name="postal-code" placeholder="010000" required="">
+    </fieldset>
+    <label for="note">Ваши заказы</label>
+    <textarea rows="2" name="note" id="note" placeholder="Информация"></textarea>
+    <input type="hidden" name="_subject" id="email-subject">
+  </fieldset>
+  <input type="submit" value="Оформить заявку">
+</form>
